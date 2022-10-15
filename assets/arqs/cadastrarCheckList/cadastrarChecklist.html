@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">  
+
+            </div>
+            <div class="col-md-6 main">
+                <form action="/checklist" method="POST">
+                    <input type="text" class="nomeCliente" id="nomeCliente" name="NomeCliente" placeholder="nomeCliente" required />
+                    <input type="text" class="telefone" id="telefone" name="telefone" placeholder="telefone" required />
+                    <input type="text" name="modeloCelular" id="modeloCelular" name="modeloCelular" placeholder="modeloCelular" required />
+                    <h2>CheckList do aparelho:</h2>
+                    <input type="checkbox" class="display" id="display" name="display" placeholder="display" required />
+                    <br>
+                    <input type="checkbox" name="botaoVolume" id="botaoVolume" name="botaoVolume" placeholder="botaoVolume" required /> 
+                    <br>
+                    <input type="checkbox" name="botaoPower" id="botaoPower" placeholder="botaoPower" required />
+                    <br>
+                    <input type="checkbox" name="touchId" id="touchId" placeholder="touchId" required />
+                    <br>
+                    <input type="checkbox" name="bateria" id="bateria" placeholder="bateria" required />
+                    <br>
+                    <input type="checkbox" name="conectorCarga" id="conectorCarga" placeholder="conectorCarga" required />
+                    <br>
+                    <input type="checkbox" name="camera" id="camera" placeholder="camera" required />
+                    <br>
+                    <input type="checkbox" name="saidaAudio" id="saidaAudio" placeholder="saidaAudio" required /> 
+                    <br>
+                    <input type="checkbox" name="microfone" id="microfone" placeholder="microfone" required /> 
+                    <br>
+                    <input type="text" name="servico" id="servico" placeholder="servico" required />
+                    <input type="text" name="valor" id="valor" placeholder="valor" required/>
+                    <input type="submit" value="Cadastrar CheckList" id="submit"/>
+                </form>    
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
